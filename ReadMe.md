@@ -16,7 +16,7 @@ Welcome to **GridGallery**, a beautiful website designed entirely with HTML and 
 ## 🚀 How to Use
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/GridGallery.git
+   git clone https://github.com/Bigyanhub/GridGallery.git
    ```
 2. Open the `index.html` file in your favorite browser.
 
