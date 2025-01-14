@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  /* height: 150vh; */
+  width: 100%;
+  display: grid;
+  grid-template-rows: 4.5rem auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+/* Header Section */
+/* Header Section */
+/* Header Section */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  background-color: lightblue;
+  padding: 0 1rem;
+}
+
+.header .icon i {
+  font-size: 2.5rem;
+  color: darkcyan;
+}
+
+/* I don't know why it work */
+.header .nav-link {
+  display: grid;
+  place-items: center;
+}
+.header ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.header ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: darkcyan;
+}
+
+.header .signup {
+  display: grid;
+  place-items: center;
+}
+.header .signup button {
+  padding: 0.5rem 1rem; /*I also don't know why it makes buttom bigger?*/
+  background: darkcyan;
+  border: 1px solid darkcyan;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Hero1 Section */
+/* Hero1 Section */
+/* Hero1 Section */
+
+.hero1 {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.hero1 img {
+  height: 100%;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.hero1 .info1 {
+  margin: 1rem 1rem;
+}
+
+.hero1 .info1 h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero1 .info1 p {
+  line-height: 1.3;
+  font-size: 1.2rem;
+}
+
+/* Hero2 Section */
+/* Hero2 Section */
+/* Hero2 Section */
+
+.hero2 {
+  background-color: lightcoral;
+  display: grid;
+  grid-template-columns: auto auto;
+  overflow: hidden;
+}
+
+.hero2 img {
+  height: 100%;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.hero2 .info2 {
+  margin: 1rem 1rem;
+}
+.hero2 h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.hero2 .info2 p {
+  line-height: 1.3;
+  font-size: 1.2rem;
+}
+
+/* Footer section */
+/* Footer section */
+/* Footer section */
+
+.footer {
+  background-color: lightgoldenrodyellow;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0.8rem 1rem 2rem 1rem;
+
+}
+
+.footer-h3 {
+    margin-bottom: 0.5rem;
+}
+.footer .about-us p {
+    line-height: 1.3;
+}
+
+.footer .quick-link {
+    justify-self: center;
+}
+
+.footer .quick-link ul {
+    list-style: none;
+    display: grid;
+    /* align-items: center; */
+}
+
+.footer .quick-link ul li a {
+    line-height: 1.5;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: darkcyan;
+}
+
+.footer .contact-us h2{
+    margin-bottom: 0.8rem;
+}
+
+.footer .contact-us form {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+}
+
+.footer .contact-us form input,
+.footer .contact-us form textarea {
+    padding: 0.5rem;/*Again why???*/
+    border-radius: 0.4rem;
+    border: 1px solid darkcyan;
+    resize: none;
+}
+
+.footer .contact-us form button {
+    justify-self: end;
+    padding: 0.5rem 1rem;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
