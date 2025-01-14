@@ -26,7 +26,7 @@ Welcome to **GridGallery**, a beautiful website designed entirely with HTML and 
 - Showcase Pokémon-themed content with engaging design.
 
 ## 🖼️ Preview
-![website-preview](screenimage.png)
+![web preview](img/screenimage.png)
 
 ## 🙌 Contributing
 Contributions are welcome! Feel free to fork this repo, make improvements, and submit a pull request.
